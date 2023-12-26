@@ -1,5 +1,10 @@
 <template>
-  <GreetComponent name="Arif" hero-name="Batman" :age="50" />
+  <GreetComponent
+    id="greet-component"
+    name="Arif"
+    hero-name="Batman"
+    :age="50"
+  />
 </template>
 
 <script>
