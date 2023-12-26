@@ -1,6 +1,8 @@
 <template>
-  <h2>Hello {{ name }}, Hero : {{ heroName }} Age : {{ age }}</h2>
-  <h2 v-bind="$attrs">heeeeooooooooooooo</h2>
+  <div>
+    <h2>Hello {{ name }}, Hero : {{ heroName }} Age : {{ age }}</h2>
+    <h2 v-bind="$attrs">heeeeooooooooooooo</h2>
+  </div>
 </template>
 
 <script>
@@ -11,6 +13,7 @@ export default {
     heroName: String,
     age: Number,
   },
+  i,
 };
 </script>
 
