@@ -13,7 +13,7 @@ export default {
     heroName: String,
     age: Number,
   },
-  i,
+  inheritAttrs: false,
 };
 </script>
 
