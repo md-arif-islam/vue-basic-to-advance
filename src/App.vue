@@ -1,11 +1,5 @@
 <template>
-  <GreetComponent name="Arif" hero-name="Batman" />
-  <GreetComponent name="Arif" hero-name="Batman" />
-  <GreetComponent name="Arif" hero-name="Batman" />
-  <GreetComponent name="Arif" hero-name="Batman" />
-  <GreetComponent name="Arif" hero-name="Batman" />
-  <GreetComponent name="Arif" hero-name="Batman" />
-  <GreetComponent :name="name" :hero-name="heroName" />
+  <GreetComponent name="Arif" hero-name="Batman" :age="50" />
 </template>
 
 <script>

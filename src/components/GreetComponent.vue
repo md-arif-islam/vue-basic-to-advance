@@ -1,11 +1,15 @@
 <template>
-  <h2>Hello {{ name }}, Hero : {{ heroName }}</h2>
+  <h2>Hello {{ name }}, Hero : {{ heroName }} Age : {{ age }}</h2>
 </template>
 
 <script>
 export default {
   name: "GreetComponent",
-  props: ["name", "heroName"],
+  props: {
+    name: String,
+    heroName: String,
+    age: Number,
+  },
 };
 </script>
 
