@@ -1,8 +1,6 @@
 <template>
-  <div>
-    <h2>Hello {{ name }}, Hero : {{ heroName }} Age : {{ age }}</h2>
-    <h2>heeeeooooooooooooo</h2>
-  </div>
+  <h2>Hello {{ name }}, Hero : {{ heroName }} Age : {{ age }}</h2>
+  <h2 v-bind="$attrs">heeeeooooooooooooo</h2>
 </template>
 
 <script>
